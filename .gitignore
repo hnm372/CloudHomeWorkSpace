@@ -1,0 +1,39 @@
+# Compiled/generated output
+**/target/
+**/build/
+frontend/node_modules/
+frontend/unpackage/
+frontend/dist/
+**/.cache/
+
+# Local configuration / runtime secrets
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+backend/var/
+var/
+logs/
+log/
+
+# Local IDE and OS files
+.idea/
+.vscode/
+.settings/
+.hbuilderx/launch.private.json
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.DS_Store
+Thumbs.db
+
+# Python tests
+__pycache__/
+*.py[cod]
